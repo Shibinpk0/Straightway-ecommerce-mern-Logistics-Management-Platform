@@ -5,7 +5,7 @@
 [![React](https://img.shields.io/badge/React-18.2-61DAFB.svg)](https://reactjs.org/)
 
 A premium, full-stack e-commerce and logistics management platform built for **Straight Way Oil & Flour Mill**. This application features a futuristic, minimal dark-themed interface with glassmorphic elements and a sophisticated real-time order tracking system.
-
+the Deployed link:https://straightway-ecommerce.onrender.com
 ---
 
 ## 🚀 Key Features
