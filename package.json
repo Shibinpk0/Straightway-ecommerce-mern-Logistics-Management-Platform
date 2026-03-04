@@ -1,0 +1,17 @@
+{
+    "name": "straightway-project",
+    "version": "1.0.0",
+    "description": "Premium E-commerce Platform - Consolidated Production Build",
+    "scripts": {
+        "install:backend": "cd chillipowder-backend && npm install",
+        "install:frontend": "cd chillipowder-frontend && npm install",
+        "install-all": "npm run install:backend && npm run install:frontend",
+        "build:frontend": "cd chillipowder-frontend && npm run build",
+        "start": "cd chillipowder-backend && npm start",
+        "dev:backend": "cd chillipowder-backend && npm run server",
+        "dev:frontend": "cd chillipowder-frontend && npm run dev",
+        "heroku-postbuild": "npm run install:frontend && npm run build:frontend && npm run install:backend"
+    },
+    "author": "",
+    "license": "ISC"
+}
