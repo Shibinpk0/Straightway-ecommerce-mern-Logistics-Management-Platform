@@ -6,9 +6,17 @@ const connectDB = require('./config/db');
 const colors = require('colors');
 const { notFound, errorHandler } = require('./middleware/errorMiddleware');
 
+const fs = require('fs');
+
 dotenv.config();
 
 connectDB();
+
+// Ensure uploads directory exists
+const uploadsDir = path.join(__dirname, '/uploads');
+if (!fs.existsSync(uploadsDir)) {
+    fs.mkdirSync(uploadsDir);
+}
 
 const app = express();
 
