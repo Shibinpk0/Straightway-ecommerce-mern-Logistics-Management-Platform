@@ -81,13 +81,4 @@ Refer to the [Detailed Deployment Guide](./chillipowder-backend/DEPLOYMENT_GUIDE
 
 ---
 
-## 📍 Contact & Support
-
-**Straight Way Oil & Flour Mill**  
-Vakkeelpadi, Nilambur Road, Karulai, Malappuram-679330, Kerala, India  
-📧 Email: straightway@gmail.com  
-📞 Phone: +91 8281372004
-
----
-
 *Engineered with precision for advanced agentic performance.*
